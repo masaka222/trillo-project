@@ -1,14 +1,19 @@
 import React, { Component } from 'react';
 import './App.css';
+import Header from './Header';
+import Content from './Content';
+import Sidebar from './Sidebar';
+import HotelView from './HotelView';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          
-        </header>
-        Trillo
+          <Header/>
+          <Content>
+            <Sidebar/>
+            <HotelView/>
+          </Content>
       </div>
     );
   }
