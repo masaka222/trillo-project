@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.png';
+import user from './user.jpg';
 import IconMagnifyingGlass from './IconMagnifyingGlass';
 import IconChat from './IconChat';
 import IconBookmark from './IconBookmark';
@@ -13,7 +14,11 @@ class Header extends Component {
           <form action="#" className="search">
             <input type="text" className="search__input" placeholder="Search hotels"/>
             <button className="search__button">
-                <IconMagnifyingGlass width="2rem" height="2rem"/>
+                <IconMagnifyingGlass 
+                  width="2rem" 
+                  height="2rem"
+                  fill="#999"
+                />
             </button>
           </form>
       
@@ -26,6 +31,10 @@ class Header extends Component {
             <div className = "user-nav__icon-box">
                 <IconChat width="2.25rem" height="2.25rem"/>
                 <span className="user-nav__notification">13</span>
+            </div>
+
+            <div className = "user-nav__user">
+              <img src={user} className="user-nav__user-photo"/>
             </div>
           </nav>
 
