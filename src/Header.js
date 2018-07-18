@@ -24,17 +24,18 @@ class Header extends Component {
       
           <nav className = "user-nav">
             <div className = "user-nav__icon-box">
-                <IconBookmark width="2.25rem" height="2.25rem"/>
+                <IconBookmark width="2.25rem" height="2.25rem" fill="#777"/>
                 <span className="user-nav__notification">7</span>
             </div>
 
             <div className = "user-nav__icon-box">
-                <IconChat width="2.25rem" height="2.25rem"/>
+                <IconChat width="2.25rem" height="2.25rem" fill="#777"/>
                 <span className="user-nav__notification">13</span>
             </div>
 
             <div className = "user-nav__user">
               <img src={user} className="user-nav__user-photo"/>
+              <span className="user-nav__user-name">Jonas</span>
             </div>
           </nav>
 
