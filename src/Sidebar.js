@@ -11,29 +11,34 @@ class Sidebar extends Component {
           <ul className="side-nav">
             <li className = "side-nav__item"> 
               <a href="#" className="side-nav__link">
-                <IconHome/>
+                <IconHome width="1.75rem" height="1.75rem"/>
                 <span>Hotel</span>
               </a>
             </li>
             <li className = "side-nav__item"> 
               <a href="#" className="side-nav__link">
-                <IconAircraft/>
+                <IconAircraft width="1.75rem" height="1.75rem"/>
                 <span>Hotel</span>
               </a>
             </li>
             <li className = "side-nav__item"> 
               <a href="#" className="side-nav__link">
-                <IconKey/>
+                <IconKey width="1.75rem" height="1.75rem"/>
                 <span>Hotel</span>
               </a>
             </li>
             <li className = "side-nav__item"> 
               <a href="#" className="side-nav__link">
-                <IconMap/>
+                <IconMap width="1.75rem" height="1.75rem"/>
                 <span>Hotel</span>
               </a>
             </li>
           </ul>
+
+          <div className="legal">
+            &copy; 2017 by trillo. All rights reserved.
+          </div>
+
         </div>
     );
   }
