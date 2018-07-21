@@ -18,19 +18,19 @@ class Sidebar extends Component {
             <li className = "side-nav__item"> 
               <a href="#" className="side-nav__link">
                 <IconAircraft width="1.75rem" height="1.75rem"/>
-                <span>Hotel</span>
+                <span>Flight</span>
               </a>
             </li>
             <li className = "side-nav__item"> 
               <a href="#" className="side-nav__link">
                 <IconKey width="1.75rem" height="1.75rem"/>
-                <span>Hotel</span>
+                <span>Car rental</span>
               </a>
             </li>
             <li className = "side-nav__item"> 
               <a href="#" className="side-nav__link">
                 <IconMap width="1.75rem" height="1.75rem"/>
-                <span>Hotel</span>
+                <span>Tours</span>
               </a>
             </li>
           </ul>
