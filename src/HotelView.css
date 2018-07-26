@@ -1,7 +1,14 @@
 .hotel-view{
     background-color: #fff;
-
     flex: 1;
 
     height: 80rem;
+}
+
+.gallery{
+    display: flex;
+}
+.gallery__photo{
+    width: 100%;
+    display: block;
 }
