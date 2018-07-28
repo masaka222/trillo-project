@@ -12,3 +12,24 @@
     width: 100%;
     display: block;
 }
+
+.overview{
+    display: flex;
+    justify-content: space-between;
+}
+
+.overview__heading{
+
+}
+
+.overview__location{
+    flex: 1;
+}
+
+.overview__rating{
+
+}
+
+.overview__rating-average{
+
+}
