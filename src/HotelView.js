@@ -49,6 +49,38 @@ class HotelView extends Component {
               </div>
             </div>
           </div>
+
+
+          <div className="detail">
+            <div className="description">
+              <p className="paragraph">
+                Lorem ipsum dolor sit amet consectetur adipiscing elit lobortis vestibulum porttitor luctus, penatibus natoque non litora sociis nam nisl eros curae rhoncus. Vitae vehicula ligula laoreet aliquam pulvinar sociosqu justo, inceptos metus gravida nisl himenaeos aenean massa,
+              </p>
+              <p className="paragraph">
+                Aptent tellus quisque orci hac rhoncus, augue tincidunt purus enim viverra conubia. Ad placerat mauris elementum senectus scelerisque rhoncus dictum, facilisi pretium praesent porttitor congue eleifend fusce, nam blandit eget tincidunt nibh sagittis.
+              </p>
+              <ul className="list">
+                <li>Close to the Beach</li>
+                <li>Breakfst Included</li>
+                <li>Pre airport shuttle</li>
+                <li>Free Wifi in all rooms</li>
+                <li>Air conditioning and heating</li>
+                <li>Pets allowed</li>
+                <li>We speak all languages</li>
+                <li>Perfect of families</li>
+              </ul>
+              
+              <div className="recommend">
+                <p className="recommend__count">
+                  Lucy and 3 other friends recommend this hotel
+                </p>
+              </div>
+            </div>
+
+            <div className="user-reviews">
+              User Reviews
+            </div>
+          </div>
         </main>
       </div>
     );
