@@ -4,6 +4,12 @@ import hotel2 from "./hotel-2.jpg";
 import hotel3 from "./hotel-3.jpg";
 import IconStar from "./IconStar";
 import IconLocation from "./IconLocation";
+import user1 from "./user-1.jpg";
+import user2 from "./user-2.jpg";
+import user3 from "./user-3.jpg";
+import user4 from "./user-4.jpg";
+import user5 from "./user-5.jpg";
+import user6 from "./user-6.jpg";
 
 class HotelView extends Component {
   render() {
@@ -60,20 +66,27 @@ class HotelView extends Component {
                 Aptent tellus quisque orci hac rhoncus, augue tincidunt purus enim viverra conubia. Ad placerat mauris elementum senectus scelerisque rhoncus dictum, facilisi pretium praesent porttitor congue eleifend fusce, nam blandit eget tincidunt nibh sagittis.
               </p>
               <ul className="list">
-                <li>Close to the Beach</li>
-                <li>Breakfst Included</li>
-                <li>Pre airport shuttle</li>
-                <li>Free Wifi in all rooms</li>
-                <li>Air conditioning and heating</li>
-                <li>Pets allowed</li>
-                <li>We speak all languages</li>
-                <li>Perfect of families</li>
+                <li className="list__item">Close to the Beach</li>
+                <li className="list__item">Breakfast Included</li>
+                <li className="list__item">Pre airport shuttle</li>
+                <li className="list__item">Free Wifi in all rooms</li>
+                <li className="list__item">Air conditioning and heating</li>
+                <li className="list__item">Pets allowed</li>
+                <li className="list__item">We speak all languages</li>
+                <li className="list__item">Perfect of families</li>
               </ul>
               
               <div className="recommend">
                 <p className="recommend__count">
-                  Lucy and 3 other friends recommend this hotel
+                  Lucy and 3 other friends recommend this hotel.
                 </p>
+                <div className="recommend__friends">
+                  <img src={user1} alt="user 1"/>
+                  <img src={user2} alt="user 2"/>
+                  <img src={user3} alt="user 3"/>
+                  <img src={user4} alt="user 4"/>
+
+                </div>
               </div>
             </div>
 
