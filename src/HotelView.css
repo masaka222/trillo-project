@@ -110,6 +110,7 @@
 */
 
 .detail{
+    font-size: 1.4rem;
     display: flex;
     padding: 4.5rem;
     background-color: var(--color-grey-light-1);
@@ -117,7 +118,6 @@
 }
 
 .description{
-    font-size: 1.4rem;
     background-color: #fff;
     box-shadow: 0 2rem 5rem rgba(0, 0, 0, .06);
     padding: 3rem;
@@ -126,7 +126,6 @@
 }
 
 .user-reviews{
-    background-color: yellowgreen;
     box-shadow: 0 2rem 5rem rgba(0, 0, 0, .06);
     flex: 1;
 }
@@ -205,4 +204,52 @@
 
 .recommend__photo:not(:last-child){
     margin-right: -1.5rem;
+}
+
+/*////////////////////////////////////////
+    REVIEWS
+*/
+.review{
+    background-color: #fff;
+    box-shadow:  0 2rem 5rem rgba(0, 0, 0, .06);
+    padding: 3rem;
+    margin-bottom: 3.5rem;
+}
+
+.review__text{
+    margin-bottom: 2rem;
+}
+
+.review__user{
+    display: flex;
+    align-items: center;
+}
+
+.review__photo{
+    border-radius: 50%;
+    height: 4.5rem;
+    width: 4.5rem;
+    margin-right: 1.5rem;
+}
+
+.review__user-box{
+    margin-right: auto;
+}
+
+.review__user-name{
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: .4rem;
+}
+
+.review__user-date{
+    font-size: 1rem;
+    color: var(--color-grey-dark-3);
+}
+
+.review__rating{
+    color: var(--color-primary);
+    font-size: 2.2rem;
+    font-weight: 300;
 }

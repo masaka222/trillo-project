@@ -85,13 +85,42 @@ class HotelView extends Component {
                   <img src={user4} alt="user 2" className="recommend__photo"/>
                   <img src={user5} alt="user 3" className="recommend__photo"/>
                   <img src={user6} alt="user 4" className="recommend__photo"/>
-
                 </div>
               </div>
             </div>
 
             <div className="user-reviews">
-              User Reviews
+
+              <figure className="review">
+                <blockquote className="review__text">
+                  Lorem ipsum dolor sit amet consectetur adipiscing elit lobortis vestibulum 
+                  porttitor luctus, penatibus natoque non litora sociis nam nisl eros curae.
+                </blockquote>
+                <figcaption className="review__user">
+                  <img src = {user1} alt = "user 1" className="review__photo"/>
+                  <div className="review__user-box">
+                    <p className="review__user-name"> Nick Smith</p>
+                    <p className="review__user-date"> Feb 23rd, 2017</p>
+                  </div>
+                  <div className="review__rating"> 7.8 </div>
+                </figcaption>
+              </figure>
+
+
+              <figure className="review">
+                <blockquote className="review__text">
+                  Lorem ipsum dolor sit amet consectetur adipiscing elit lobortis vestibulum 
+                  porttitor luctus, penatibus natoque non litora sociis nam nisl eros curae.
+                </blockquote>
+                <figcaption className="review__user">
+                  <img src = {user2} alt = "user 2" className="review__photo"/>
+                  <div className="review__user-box">
+                    <p className="review__user-name"> Mary Thomas</p>
+                    <p className="review__user-date"> Sep 13th, 2017</p>
+                  </div>
+                  <div className="review__rating"> 9.3 </div>
+                </figcaption>
+              </figure>
             </div>
           </div>
         </main>
