@@ -121,6 +121,11 @@ class HotelView extends Component {
                   <div className="review__rating"> 9.3 </div>
                 </figcaption>
               </figure>
+
+              <button className="btn-inline">
+                Show all <span>&rarr;</span>
+              </button>
+
             </div>
           </div>
         </main>

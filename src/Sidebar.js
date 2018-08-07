@@ -36,7 +36,7 @@ class Sidebar extends Component {
           </ul>
 
           <div className="legal">
-            &copy; 2017 by trillo. All rights reserved.
+            &copy; 2018 by trillo. All rights reserved.
           </div>
 
         </div>
