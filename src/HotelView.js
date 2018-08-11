@@ -18,13 +18,13 @@ class HotelView extends Component {
         <main>
           <div className="gallery">
             <figure className="gallery__item">
-              <img className="gallery__photo" src = {hotel1}/>
+              <img className="gallery__photo" src = {hotel1} alt="hotel1"/>
             </figure>
             <figure className="gallery__item">
-              <img className="gallery__photo" src = {hotel2}/>
+              <img className="gallery__photo" src = {hotel2} alt="hotel2"/>
             </figure>
             <figure className="gallery__item">
-              <img className="gallery__photo" src = {hotel3}/>
+              <img className="gallery__photo" src = {hotel3} alt="hotel3"/>
             </figure>
           </div>
 

@@ -9,7 +9,7 @@ class Header extends Component {
   render() {
     return (
       <div className="header">
-          <img src={logo} className="logo"/>
+          <img src={logo} alt="logo" className="logo"/>
 
           <form action="#" className="search">
             <input type="text" className="search__input" placeholder="Search hotels"/>
@@ -34,7 +34,7 @@ class Header extends Component {
             </div>
 
             <div className = "user-nav__user">
-              <img src={user} className="user-nav__user-photo"/>
+              <img src={user} alt="user" className="user-nav__user-photo"/>
               <span className="user-nav__user-name">Jonas</span>
             </div>
           </nav>
