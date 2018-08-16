@@ -215,8 +215,9 @@
 }
 
 .recommend__photo:not(:last-child){
-    margin-right: -1.5rem;
+    margin-right: -2rem;
 }
+
 
 /*////////////////////////////////////////
     REVIEWS
@@ -345,4 +346,31 @@
 .btn:focus{
     outline: none;
     animation: pulsate 1s infinite;
+}
+
+
+
+
+@media only screen and (max-width: 900px){
+    .detail{
+        padding: 3rem;
+    }
+
+    .description{
+        padding: 2rem;
+        margin-right: 3rem;
+    }
+
+    .review{
+        padding: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .cta{
+        padding: 2.5rem 0;
+    }
+
+    .recommend__friends{
+        display: flex;
+    }
 }

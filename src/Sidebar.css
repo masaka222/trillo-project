@@ -68,3 +68,28 @@
     text-align: center;
     padding: 2.5rem;
 }
+
+@media only screen and (max-width: 900px){
+    .side-nav{
+        display: flex;
+        margin: 0;
+    }
+
+    .legal{
+        display: none;
+    }
+
+    .side-nav__item{
+        flex: 1;
+    }
+
+    .side-nav__item:not(:last-child){
+        margin-bottom: 0;
+    }
+
+    .side-nav__link:link,
+    .side-nav__link:visited{
+        justify-content: center;
+        padding: 2rem;
+    }
+}
