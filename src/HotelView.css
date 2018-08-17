@@ -350,7 +350,7 @@
 
 
 
-
+/* Tablet */
 @media only screen and (max-width: 900px){
     .detail{
         padding: 3rem;
@@ -372,5 +372,18 @@
 
     .recommend__friends{
         display: flex;
+    }
+}
+
+
+/* Mobile */
+@media only screen and (max-width: 600px){
+    .detail{
+        flex-direction: column;
+    }
+
+    .description{
+        margin-right: 0;
+        margin-bottom: 3rem;
     }
 }
