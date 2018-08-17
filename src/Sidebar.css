@@ -93,3 +93,18 @@
         padding: 2rem;
     }
 }
+
+@media only screen and (max-width: 600px){
+    .side-nav__link:link,
+    .side-nav__link:visited{
+        flex-direction: column;
+        padding: 1.5rem .5rem;
+    }
+
+    .side-nav__icon{
+        margin-right: 0;
+        margin-bottom: .7rem;
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+}
