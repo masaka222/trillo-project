@@ -122,3 +122,16 @@
 
 .user-nav__user-name{
 }
+
+@media only screen and (max-width: 500px){
+    .header{
+        flex-wrap: wrap;
+        height: 12rem;
+        align-content: space-around;
+    }
+
+    .search {
+        order: 1;
+        flex: 0 0 100%;
+    }
+}
